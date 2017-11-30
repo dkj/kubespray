@@ -1,5 +1,5 @@
 # Valid bootstrap options (required): ubuntu, coreos, centos, none
-bootstrap_os: none
+bootstrap_os: ubuntu
 
 #Directory where etcd data stored
 etcd_data_dir: /var/lib/etcd
@@ -59,7 +59,7 @@ bin_dir: /usr/local/bin
 ## If set the possible values are either 'gce', 'aws', 'azure', 'openstack', or 'vsphere'
 ## When openstack is used make sure to source in the openstack credentials
 ## like you would do when using nova-client before starting the playbook.
-#cloud_provider:
+cloud_provider: openstack
 
 ## When azure is used, you need to also set the following variables.
 ## see docs/azure.md for details on how to get these values
