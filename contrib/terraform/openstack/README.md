@@ -177,7 +177,7 @@ $ ssh-add ~/.ssh/id_rsa
 Make sure you can connect to the hosts:
 
 ```
-$ ansible -i contrib/terraform/openstack/hosts -m ping all
+$ ansible -i contrib/terraform/openstack/hosts -m ping all -e 'ansible_python_interpreter=/usr/bin/python3'
 example-k8s_node-1 | SUCCESS => {
     "changed": false,
     "ping": "pong"
