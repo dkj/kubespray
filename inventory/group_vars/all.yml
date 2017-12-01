@@ -102,11 +102,11 @@ cloud_provider: openstack
 #docker_storage_options: -s overlay2
 
 # Uncomment this if you have more than 3 nameservers, then we'll only use the first 3.
-#docker_dns_servers_strict: false
+docker_dns_servers_strict: false
 
 ## Default packages to install within the cluster, f.e:
-#kpm_packages:
-#  - name: kube-system/grafana
+kpm_packages:
+  - name: kube-system/grafana
 
 ## Certificate Management
 ## This setting determines whether certs are generated via scripts or whether a
@@ -121,4 +121,4 @@ cloud_provider: openstack
 #etcd_compaction_retention: 0
 
 ## Set level of detail for etcd exported metrics, specify 'extensive' to include histogram metrics.
-#etcd_metrics: basic
+etcd_metrics: basic
