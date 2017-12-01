@@ -1,4 +1,4 @@
-cluster_name="k8s"
+cluster_name="npg"
 network_name="k8s_internal"
 dns_nameservers=["8.8.8.8","8.8.4.4","172.18.255.1","172.18.255.2","172.18.255.3"]
 floatingip_pool="nova"
