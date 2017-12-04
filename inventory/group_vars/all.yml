@@ -105,8 +105,8 @@ cloud_provider: openstack
 docker_dns_servers_strict: false
 
 ## Default packages to install within the cluster, f.e:
-kpm_packages:
-  - name: kube-system/grafana
+#kpm_packages:
+#  - name: kube-system/grafana
 
 ## Certificate Management
 ## This setting determines whether certs are generated via scripts or whether a
