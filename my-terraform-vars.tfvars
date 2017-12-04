@@ -13,6 +13,7 @@ image_gfs="Ubuntu Xenial"
 ssh_user="ubuntu"
 ssh_user_gfs="ubuntu"
 public_key_path="~/.ssh/ssh.key.pub"
+number_of_bastions=1
 number_of_k8s_masters=1
 number_of_k8s_masters_no_floating_ip=0
 number_of_k8s_masters_no_etcd=0
